@@ -40,4 +40,7 @@ Twilio sends each incoming WhatsApp message to the `/whatsapp` route. The bot tr
 - OTPs and verified sessions are stored in memory, so they reset when the server restarts.
 
 ## My Role
-[Write 2-3 lines here: what you built, and which part a teammate worked on.]
+This was a team project. My contributions:
+- Dataset: prepared the student data in Google Sheets and worked on how the bot reads it.
+- Twilio message handling: worked on receiving WhatsApp messages and sending replies through the Twilio API.
+- Bot replies: designed the messages the bot sends at each step of the conversation (class, branch, roll number, OTP, and the menu options).
